@@ -547,7 +547,7 @@ class TitleState extends MusicBeatState
 					//FlxG.sound.music.stop();
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
-				/*case 2:
+				case 2:
 					#if PSYCH_WATERMARKS
 					createCoolText(['Psych Engine by'], 40);
 					#else
@@ -555,8 +555,8 @@ class TitleState extends MusicBeatState
 					#end
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 40);
-					addMoreText('Riveren', 40);
+					addMoreText('ParaMattYT', 40);
+					addMoreText('Gustavo Team', 40);
 					#else
 					addMoreText('present');
 					#end
@@ -581,12 +581,12 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('Gustavos');
 				case 15:
-					addMoreText('Night');
+					addMoreText('Endless');
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';*/
-				case 2:
+					addMoreText('Purgatory'); // credTextShit.text += '\nFunkin';
+				case 17:
 					skipIntro();
 			}
 		}
