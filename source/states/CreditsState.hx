@@ -39,6 +39,13 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Gustavo Engine Team'],
+			['ParaMattYT',		'shadowmario',		'Programmer and Composer',					 'https://youtube.com/@ParaMattYT',		'3E813A'],
+			['KwanelePlayzz',		'shadowmario',		'Charter',					 'https://youtube.com/',		'444444'],
+			['rag3quiter',		'shadowmario',		'Voice Actor',					 'https://www.youtube.com/@Capybara21Music',		'3E813A'],
+			['Skillain',		'shadowmario',		'Composer',					 'https://bandlab.com/skillain',		'888888'],
+			['SonicTheBoyo',		'shadowmario',		'Artist',					 'https://twitter.com/@sonictheboyo',		'1111FF'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer and Head of Psych Engine',					 'https://ko-fi.com/shadowmario',		'444444'],
 			['Riveren',				'riveren',			'Main Artist/Animator of Psych Engine',						 'https://twitter.com/riverennn',		'14967B'],
